@@ -56,39 +56,7 @@ So this challenge lets you study Shor’s skeleton in a genuine physics setting.
 
 The physical picture should stay visible throughout the whole notebook: one particle can occupy any of 8 sites, and the translation operator moves that occupation one step clockwise.
 
-<div align="center">
-<svg width="560" height="300" viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="560" height="300" rx="18" fill="#f8fafc"/>
-  <circle cx="280" cy="150" r="96" fill="none" stroke="#94a3b8" stroke-width="3"/>
-  <line x1="347.9" y1="82.1" x2="212.1" y2="82.1" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="376" y1="150" x2="347.9" y2="82.1" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="347.9" y1="217.9" x2="376" y2="150" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="280" y1="246" x2="347.9" y2="217.9" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="212.1" y1="217.9" x2="280" y2="246" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="184" y1="150" x2="212.1" y2="217.9" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="212.1" y1="82.1" x2="184" y2="150" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="376" y1="150" x2="280" y2="54" stroke="#cbd5e1" stroke-width="0"/>
-
-  <circle cx="376" cy="150" r="18" fill="#2563eb"/><text x="376" y="156" text-anchor="middle" font-size="14" font-family="Arial" fill="white">0</text>
-  <circle cx="347.9" cy="82.1" r="18" fill="#2563eb"/><text x="347.9" y="88.1" text-anchor="middle" font-size="14" font-family="Arial" fill="white">1</text>
-  <circle cx="280" cy="54" r="18" fill="#2563eb"/><text x="280" y="60" text-anchor="middle" font-size="14" font-family="Arial" fill="white">2</text>
-  <circle cx="212.1" cy="82.1" r="18" fill="#2563eb"/><text x="212.1" y="88.1" text-anchor="middle" font-size="14" font-family="Arial" fill="white">3</text>
-  <circle cx="184" cy="150" r="18" fill="#2563eb"/><text x="184" y="156" text-anchor="middle" font-size="14" font-family="Arial" fill="white">4</text>
-  <circle cx="212.1" cy="217.9" r="18" fill="#2563eb"/><text x="212.1" y="223.9" text-anchor="middle" font-size="14" font-family="Arial" fill="white">5</text>
-  <circle cx="280" cy="246" r="18" fill="#2563eb"/><text x="280" y="252" text-anchor="middle" font-size="14" font-family="Arial" fill="white">6</text>
-  <circle cx="347.9" cy="217.9" r="18" fill="#2563eb"/><text x="347.9" y="223.9" text-anchor="middle" font-size="14" font-family="Arial" fill="white">7</text>
-
-  <path d="M 396 138 A 128 128 0 0 1 364 62" fill="none" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
-  <text x="420" y="86" font-size="16" font-family="Arial" fill="#0f766e">translation</text>
-  <text x="420" y="108" font-size="16" font-family="Arial" fill="#0f766e">by one site</text>
-  <text x="278" y="286" text-anchor="middle" font-size="16" font-family="Arial" fill="#334155">clockwise action: 0 → 1 → 2 → ... → 7 → 0</text>
-</svg>
-</div>
+![8-site periodic ring with labeled sites and one-step translation](team_b_ring_diagram.svg)
 
 What this picture means mathematically:
 
